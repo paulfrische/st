@@ -9,6 +9,10 @@ static char *font = "UbuntuMono Nerd Font:pixelsize=17:antialias=true:autohint=t
 static int borderpx = 2;
 float alpha = 0.8;
 
+const int boxdraw = 1;
+const int boxdraw_bold = 1;
+const int boxdraw_braille = 1;
+
 /*
  * What program is execed by st depends of these precedence rules:
  * 1: program passed with -e
